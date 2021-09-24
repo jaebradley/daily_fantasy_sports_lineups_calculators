@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "daily_fantasy_sports_lineups_calculators"
+version = "0.1.0"
+description = "Calculators for generating lineups"
+authors = ["Jae Bradley <jae.b.bradley@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+typing-extensions = "^3.10.0.2"
+daily-fantasy-sports-models = {path = "../daily_fantasy_sports_models"}
+daily-fantasy-sports-scoring-calculators = {path = "../daily_fantasy_sports_scoring_calculators"}
+basketball-reference-web-scraper = "^4.12.1"
+
+[tool.poetry.dev-dependencies]
+autopep8 = "^1.5.7"
+coverage = "^5.3"
+mkdocs = "^1.1.2"
+mkdocs-material = "^5.3.3"
+pymdown-extensions = "^7.1"
+pytest = "^6.1.2"
+pylint = "^2.6.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
