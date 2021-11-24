@@ -11,6 +11,7 @@ typing-extensions = "^3.10.0.2"
 daily-fantasy-sports-models = {path = "../daily_fantasy_sports_models"}
 daily-fantasy-sports-scoring-calculators = {path = "../daily_fantasy_sports_scoring_calculators"}
 basketball-reference-web-scraper = "^4.12.1"
+draft-kings = "^3.1.0"
 
 [tool.poetry.dev-dependencies]
 autopep8 = "^1.5.7"
